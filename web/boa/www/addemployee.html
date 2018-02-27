@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>增加员工</title>
+    <style>
+        form{text-align: center}
+        h1{text-align: center}
+        fieldset{align-self: center;align-content: center;align-items: center}
+    </style>
+</head>
+<body>
+<h1>增加员工</h1>
+<fieldset>
+    <legend>员工信息</legend>
+<form method="post" action="/cgi-bin/pass.cgi">
+    员工号：
+    <input type="text" name="pnumber">
+    <br>
+    密码：
+    <input type="password" name="psw">
+    <br/>
+    <input type="submit" value="提交">
+</form>
+</fieldset>
+</body>
+</html>

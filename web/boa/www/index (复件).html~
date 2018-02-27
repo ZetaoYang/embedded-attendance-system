@@ -1,0 +1,64 @@
+<html> 
+  <head><title>饮料销售控制器</title></head> 
+  <body>
+  <form name="form1" action="/cgi-bin/pass.cgi" method="POST"> 
+  <p><b><font size="4">饮料销售控制器</font></b></p> 
+  <fieldset style="width: 200; height: 150; padding: 5">
+    <legend><p align="center">1</p></legend> 
+    <p align="center">
+      <form>
+ 		库存:<br>
+		<input type="text" name="kucun1">
+		<br>
+ 		价格:<br>
+		<input type="text" name="jiage1">
+		</form> 
+    </p>
+  </fieldset>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+  <fieldset style="width: 200; height: 150; padding: 5">
+    <legend><p align="center">2</p></legend> 
+    <p align="center">
+      <form>
+ 		库存:<br>
+		<input type="text" name="kucun2">
+		<br>
+ 		价格:<br>
+		<input type="text" name="jiage2">
+		</form> 
+    </p>
+  </fieldset>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+ <fieldset style="width: 200; height: 150; padding: 5">
+    <legend><p align="center">3</p></legend> 
+    <p align="center">
+      <form>
+ 		库存:<br>
+		<input type="text" name="kucun3">
+		<br>
+ 		价格:<br>
+		<input type="text" name="jiage3">
+		</form> 
+    </p>
+  </fieldset>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+<fieldset style="width: 200; height: 150; padding: 5">
+    <legend><p align="center">4</p></legend> 
+    <p align="center">
+      <form>
+ 		库存:<br>
+		<input type="text" name="kucun4">
+		<br>
+ 		价格:<br>
+		<input type="text" name="jiage4">
+		</form> 
+    </p>
+</fieldset>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+  <p></p> 
+  <table width="200">     
+    <tr><td align="left"></td></tr>
+    <tr>
+       <td align="center" width="101" height="35"><input type="submit" value="执 行"></td>
+    </tr> 
+  </table>
+  </form> 
+  </body> 
+</html> 
+

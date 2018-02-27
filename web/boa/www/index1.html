@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>考勤系统</title>
+    <style type="text/css">
+	    form{text-align: center}
+	    h1{text-align: center}
+	    /*body{background-image: url("bac.jpg")};*/
+	    fieldset{
+	    	align-self: center;
+	    	align-content: center;
+	    	align-items: center
+	    }
+	</style>
+</head>
+<h1>考勤系统管理端</h1>
+<body>
+<fieldset>
+    <legend>查找员工(根据员工号)</legend>
+    <form method="post" action="/cgi-bin/findemployee.cgi">
+        员工号：
+        <input type="text" name="pnumber">
+        <br>
+        <input type="submit" value="查找">
+    </form>
+</fieldset>
+<fieldset>
+    <legend>查找员工(根据姓名)</legend>
+    <form method="post" action="/cgi-bin/findemployee.cgi">
+        姓名：
+        <input type="text" name="pname">
+        <br>
+        <input type="submit" value="查找">
+    </form>
+</fieldset>
+<fieldset>
+    <legend>签到情况统计</legend>
+    <form method="get" action="/cgi-bin/find_routines.cgi">
+        <input type="text" name="date">
+        <input type="submit" value="查找">
+    </form>
+</fieldset>
+<fieldset>
+    <legend>增加员工</legend>
+<form method="post" action="/cgi-bin/pass.cgi">
+    员工号：
+    <input type="text" name="number">
+    <br>
+	员工姓名：
+    <input type="text" name="name">
+    <br>
+    密码：
+    <input type="password" name="psw">
+    <br/>
+    <input type="submit" value="提交">
+</form>
+</fieldset>
+</body>
+</html>
