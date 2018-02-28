@@ -12,11 +12,4 @@ ARM 开发板为三星的 S3C2410，开发系统为 RedHat Linux 5。Qt 版本�
 mknod /dev/Mega8-kbd c 252 0
 ```
 - 数据库文件可用 SQLiteStudio 查看。
-
-![Qt GUI0](./screenshot/0.jpg)
-
-![Qt GUI2](./screenshot/2.jpg)
-
-![Web3](./screenshot/3.jpg)
-
-![Web6](./screenshot/6.jpg)
+- 截图在 `screenshot` 文件下。
